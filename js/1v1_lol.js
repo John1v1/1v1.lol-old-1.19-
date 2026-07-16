@@ -1,4 +1,4 @@
-var gameInstance = UnityLoader.instantiate("gameContainer", "/WebGL.json", {
+var gameInstance = UnityLoader.instantiate("gameContainer", "WebGL.json", {
     onProgress: UnityProgress,
     Module: {
         onRuntimeInitialized: function () {
